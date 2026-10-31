@@ -1,0 +1,6 @@
+# Only needed to run the backend tests locally (npm test). The deployed app
+# runs the backend in the browser via Pyodide (see frontend/src/py.worker.js).
+pandas
+openpyxl
+rapidfuzz
+pytest

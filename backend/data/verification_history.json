@@ -1,0 +1,182 @@
+{
+  "2026-06-18": {
+    "checks": [
+      {
+        "name": "Row 9 OP New Registration recount (non-blank Mrd Number)",
+        "expected": 383,
+        "actual": 385,
+        "delta": 2.0,
+        "pass": false
+      },
+      {
+        "name": "Row 10 OP Encounters recount (detail rows, exclusions applied)",
+        "expected": 3744,
+        "actual": 3744,
+        "delta": 0.0,
+        "pass": true
+      },
+      {
+        "name": "Row 34 Total Billing recompute (sum of Net across billing sheets)",
+        "expected": 27441272.869999997,
+        "actual": 27441272.869999997,
+        "delta": 0.0,
+        "pass": true
+      },
+      {
+        "name": "Row 11 IP Admission total == sum of rows 12-16",
+        "expected": 299,
+        "actual": 299.0,
+        "delta": 0.0,
+        "pass": true
+      },
+      {
+        "name": "Row 22 IP Discharges total == sum of rows 23-27",
+        "expected": 308,
+        "actual": 308.0,
+        "delta": 0.0,
+        "pass": true
+      },
+      {
+        "name": "Row 34 Total Billing == row 32 + row 33",
+        "expected": 27441272.869999997,
+        "actual": 27441272.869999997,
+        "delta": 0.0,
+        "pass": true
+      },
+      {
+        "name": "Row 39 Billing total == row 37 + row 38",
+        "expected": 27441272.869999997,
+        "actual": 27441272.869999997,
+        "delta": 0.0,
+        "pass": true
+      },
+      {
+        "name": "Row 48 Credit-Domestic == sum of rows 49-52",
+        "expected": 8945790.18,
+        "actual": 8945790.180000002,
+        "delta": 1.862645149230957e-09,
+        "pass": true
+      },
+      {
+        "name": "Row 54 Credit-International == sum of rows 55-56",
+        "expected": 1280937.39,
+        "actual": 1280937.39,
+        "delta": 0.0,
+        "pass": true
+      },
+      {
+        "name": "Row 57 Total Billing == rows 44+45+48+54",
+        "expected": 27441272.869999997,
+        "actual": 27441272.87,
+        "delta": 3.725290298461914e-09,
+        "pass": true
+      },
+      {
+        "name": "Row 39 == Row 34 (both billing totals agree)",
+        "expected": 27441272.869999997,
+        "actual": 27441272.869999997,
+        "delta": 0.0,
+        "pass": true
+      },
+      {
+        "name": "Row 6 Occupancy % == row 5 / row 4",
+        "expected": 1.028,
+        "actual": 1.028,
+        "delta": 0.0,
+        "pass": true
+      },
+      {
+        "name": "OP Billing is not negative",
+        "expected": ">= 0",
+        "actual": 9848246.11,
+        "delta": null,
+        "pass": true
+      },
+      {
+        "name": "IP Billing is not negative",
+        "expected": ">= 0",
+        "actual": 17593026.759999998,
+        "delta": null,
+        "pass": true
+      },
+      {
+        "name": "Total Billing is not negative",
+        "expected": ">= 0",
+        "actual": 27441272.869999997,
+        "delta": null,
+        "pass": true
+      },
+      {
+        "name": "Billing Domestic is not negative",
+        "expected": ">= 0",
+        "actual": 25991715.479999997,
+        "delta": null,
+        "pass": true
+      },
+      {
+        "name": "Billing International is not negative",
+        "expected": ">= 0",
+        "actual": 1449557.39,
+        "delta": null,
+        "pass": true
+      },
+      {
+        "name": "Billing Total is not negative",
+        "expected": ">= 0",
+        "actual": 27441272.869999997,
+        "delta": null,
+        "pass": true
+      },
+      {
+        "name": "Cash Domestic is not negative",
+        "expected": ">= 0",
+        "actual": 17045925.3,
+        "delta": null,
+        "pass": true
+      },
+      {
+        "name": "Cash International is not negative",
+        "expected": ">= 0",
+        "actual": 168620.0,
+        "delta": null,
+        "pass": true
+      },
+      {
+        "name": "Credit Domestic Total is not negative",
+        "expected": ">= 0",
+        "actual": 8945790.18,
+        "delta": null,
+        "pass": true
+      },
+      {
+        "name": "Credit International Total is not negative",
+        "expected": ">= 0",
+        "actual": 1280937.39,
+        "delta": null,
+        "pass": true
+      },
+      {
+        "name": "Credit Total Billing is not negative",
+        "expected": ">= 0",
+        "actual": 10226727.57,
+        "delta": null,
+        "pass": true
+      },
+      {
+        "name": "AEPL Billing is not negative",
+        "expected": ">= 0",
+        "actual": 9667188.25,
+        "delta": null,
+        "pass": true
+      },
+      {
+        "name": "Occupancy % within [0, 1.5]",
+        "expected": "0 to 1.5",
+        "actual": 1.028,
+        "delta": null,
+        "pass": true
+      }
+    ],
+    "allPassed": false
+  }
+}

@@ -1,0 +1,10 @@
+name = "kochi-his-report"
+pages_build_output_dir = "frontend/dist"
+compatibility_date = "2026-10-01"
+
+# Shared app state (MTD history, remembered Category Review choices, ...).
+# Create once with:  npx wrangler kv namespace create STATE
+# then paste the printed id below. See DEPLOY.md.
+[[kv_namespaces]]
+binding = "STATE"
+id = "0d31c897bd14469b929b6b6f3df4ac9b"

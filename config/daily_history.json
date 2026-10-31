@@ -1,0 +1,142 @@
+{
+  "2026-06": {
+    "AEPL Billing": {
+      "18": 9667188.25
+    },
+    "Admission from OP (walk-in)": {
+      "18": 158
+    },
+    "Bed Strength": {
+      "18": 1000
+    },
+    "Beds Occupied": {
+      "18": 1028
+    },
+    "Billing Domestic": {
+      "18": 25991715.479999997
+    },
+    "Billing International": {
+      "18": 1449557.39
+    },
+    "Billing Total": {
+      "18": 27441272.869999997
+    },
+    "Cash Domestic": {
+      "18": 17045925.3
+    },
+    "Cash International": {
+      "18": 168620.0
+    },
+    "Credit Domestic Corporates": {
+      "18": 314849.45
+    },
+    "Credit Domestic ECHS": {
+      "18": 3206599.0400000005
+    },
+    "Credit Domestic P.Card.Fund": {
+      "18": 0.0
+    },
+    "Credit Domestic TPA": {
+      "18": 5424341.69
+    },
+    "Credit Domestic Total": {
+      "18": 8945790.18
+    },
+    "Credit International Corporates (International)": {
+      "18": 1280937.39
+    },
+    "Credit International TPA Aasantha": {
+      "18": 0.0
+    },
+    "Credit International Total": {
+      "18": 1280937.39
+    },
+    "Credit Total Billing": {
+      "18": 10226727.57
+    },
+    "Emergency Admission": {
+      "18": 52
+    },
+    "Hospital Revenue (Net of AEPL)": {
+      "18": 17774084.619999997
+    },
+    "IP Admission Corporates": {
+      "18": 2
+    },
+    "IP Admission ECHS": {
+      "18": 31
+    },
+    "IP Admission General": {
+      "18": 227
+    },
+    "IP Admission P.Card.Fund": {
+      "18": 0
+    },
+    "IP Admission TPA": {
+      "18": 39
+    },
+    "IP Admission Total": {
+      "18": 299
+    },
+    "IP Billing": {
+      "18": 17593026.759999998
+    },
+    "IP Discharges Corporates": {
+      "18": 1
+    },
+    "IP Discharges ECHS": {
+      "18": 37
+    },
+    "IP Discharges General": {
+      "18": 229
+    },
+    "IP Discharges P.Card.Fund": {
+      "18": 0
+    },
+    "IP Discharges TPA": {
+      "18": 41
+    },
+    "IP Discharges Total": {
+      "18": 308
+    },
+    "Long Stay Patients": {
+      "18": 14
+    },
+    "Long Stay Patients Corporates": {
+      "18": 1
+    },
+    "Long Stay Patients ECHS": {
+      "18": 2
+    },
+    "Long Stay Patients General": {
+      "18": 8
+    },
+    "Long Stay Patients P.Card.Fund": {
+      "18": 0
+    },
+    "Long Stay Patients TPA": {
+      "18": 3
+    },
+    "Long Stay Patients Total": {
+      "18": 14
+    },
+    "OP Billing": {
+      "18": 9848246.11
+    },
+    "OP Encounters": {
+      "18": 3744
+    },
+    "OP New Registration": {
+      "18": 383
+    },
+    "Occupancy %": {
+      "18": 1.028
+    },
+    "Planned Admission": {
+      "18": 79
+    },
+    "Total Billing": {
+      "18": 27441272.869999997
+    }
+  }
+}

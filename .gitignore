@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+
+node_modules/
+frontend/dist/
+frontend/public/pyapp.zip
+data/outputs/
+.wrangler/
+
+build/
+dist/
+
+.venv/
+venv/
+*.egg-info/
+
+.DS_Store
+Thumbs.db
+
+Final Output - 20-07-2026.xlsx
+
+
+reference_files/
+.pytest_cache/

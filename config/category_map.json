@@ -1,0 +1,252 @@
+{
+  "ask": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "chss": {
+    "bucket": "ECHS",
+    "region": "Domestic"
+  },
+  "chss2023": {
+    "bucket": "ECHS",
+    "region": "Domestic"
+  },
+  "cialcisf": {
+    "bucket": "ECHS",
+    "region": "Domestic"
+  },
+  "cialgnl": {
+    "bucket": "ECHS",
+    "region": "Domestic"
+  },
+  "cpr": {
+    "bucket": "CPR",
+    "region": "Domestic"
+  },
+  "cpr1": {
+    "bucket": "CPR",
+    "region": "Domestic"
+  },
+  "cpr24": {
+    "bucket": "CPR",
+    "region": "Domestic"
+  },
+  "cpr25": {
+    "bucket": "CPR",
+    "region": "Domestic"
+  },
+  "cpr26": {
+    "bucket": "CPR",
+    "region": "Domestic",
+    "confirm": true
+  },
+  "cprafroasian": {
+    "bucket": "CPR",
+    "region": "International"
+  },
+  "cproman": {
+    "bucket": "CPR",
+    "region": "International"
+  },
+  "cprsaarcself": {
+    "bucket": "CPR",
+    "region": "International"
+  },
+  "cprself": {
+    "bucket": "CPR",
+    "region": "Domestic"
+  },
+  "dentalfaculty": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "dentalpg": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "dentalstudent": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "dep": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "depafroasian": {
+    "bucket": "General",
+    "region": "International"
+  },
+  "depmaldives": {
+    "bucket": "General",
+    "region": "International"
+  },
+  "depoman": {
+    "bucket": "General",
+    "region": "International"
+  },
+  "depsaarc": {
+    "bucket": "General",
+    "region": "International"
+  },
+  "depwesternersandmideasterners": {
+    "bucket": "General",
+    "region": "International"
+  },
+  "echs": {
+    "bucket": "ECHS",
+    "region": "Domestic"
+  },
+  "echs2025": {
+    "bucket": "ECHS",
+    "region": "Domestic"
+  },
+  "emp": {
+    "bucket": "TPA",
+    "region": "Domestic"
+  },
+  "emptpa": {
+    "bucket": "TPA",
+    "region": "Domestic"
+  },
+  "esi": {
+    "bucket": "ECHS",
+    "region": "Domestic"
+  },
+  "esi2021": {
+    "bucket": "ECHS",
+    "region": "Domestic"
+  },
+  "esi2025": {
+    "bucket": "ECHS",
+    "region": "Domestic"
+  },
+  "exservicemen": {
+    "bucket": "ECHS",
+    "region": "Domestic"
+  },
+  "fdm": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "fdmamp": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "fdmampw": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "fm": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "gnl": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "gnlaasandha": {
+    "bucket": "General",
+    "region": "International"
+  },
+  "gnloman": {
+    "bucket": "General",
+    "region": "International"
+  },
+  "gnlsaarc": {
+    "bucket": "General",
+    "region": "International"
+  },
+  "gnlsd": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "gnlsrv": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "gnlwesternersandmideasterners": {
+    "bucket": "General",
+    "region": "International"
+  },
+  "inhs2025": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "inhsgnl": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "labcpr25op1": {
+    "bucket": "CPR",
+    "region": "Domestic"
+  },
+  "labcpr26": {
+    "bucket": "CPR",
+    "region": "Domestic"
+  },
+  "labcpr26op1": {
+    "bucket": "CPR",
+    "region": "Domestic"
+  },
+  "labcprop1": {
+    "bucket": "CPR",
+    "region": "Domestic"
+  },
+  "labcprop25": {
+    "bucket": "CPR",
+    "region": "Domestic"
+  },
+  "labcprop26": {
+    "bucket": "CPR",
+    "region": "Domestic"
+  },
+  "mcs": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "ncs": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "pcardfund": {
+    "bucket": "P CARD FUND",
+    "region": "Domestic"
+  },
+  "phcentre": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "pmfund": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "ssvtpa": {
+    "bucket": "TPA",
+    "region": "Domestic"
+  },
+  "studyfaculty": {
+    "bucket": "General",
+    "region": "Domestic",
+    "confirm": true
+  },
+  "thesis": {
+    "bucket": "General",
+    "region": "Domestic"
+  },
+  "tpa": {
+    "bucket": "TPA",
+    "region": "Domestic"
+  },
+  "tpa24": {
+    "bucket": "TPA",
+    "region": "Domestic"
+  },
+  "tpaaasandha": {
+    "bucket": "TPA",
+    "region": "International"
+  },
+  "tpaaasantha25": {
+    "bucket": "TPA",
+    "region": "International"
+  }
+}
