@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A single-office desktop tool that automates a hospital's daily HIS (Hospital Information System) report. Staff upload ~9 raw Excel exports (bed occupancy, OP/IP admissions & discharges, billing, AEPL credit postings, etc.), the tool detects which file is which report, computes every figure the "Final output" workbook needs, and writes/exports that workbook. Deployed on **Cloudflare Pages**: the React frontend is static, the Python backend runs **in the browser via Pyodide**, and shared state lives in **Cloudflare KV** behind one Pages Function. Deployment steps: `DEPLOY.md`.
+A single-office desktop tool that automates a hospital's daily HIS (Hospital Information System) report. Staff upload ~9 raw Excel exports (bed occupancy, OP/IP admissions & discharges, billing, AEPL credit postings, etc.), the tool detects which file is which report, computes every figure the "Final output" workbook needs, and writes/exports that workbook. Deployed on **Cloudflare Pages**: the React frontend is static, the Python backend runs **in the browser via Pyodide**, and shared state lives in **Cloudflare KV** behind one Pages Function. Deployment steps: `DEPLOY.docx`.
 
 ## Commands
 
