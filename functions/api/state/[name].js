@@ -1,5 +1,5 @@
 // Shared app state in Cloudflare KV (binding STATE), one key per file the
-// Python backend persists. Holds only daily totals, category codes and column
+// report engine persists (src/engine/api.js `store`). Holds only daily totals, category codes and column
 // names -- never patient rows (those stay in the browser).
 const NAMES = new Set(['daily_history.json', 'learned_overrides.json', 'verification_history.json', 'schema_baselines.json'])
 const MAX_BYTES = 5 * 1024 * 1024

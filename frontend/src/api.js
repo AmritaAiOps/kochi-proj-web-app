@@ -1,6 +1,6 @@
-// Routes the app's API calls (same URLs the FastAPI server used to serve) to
-// the in-browser Python engine in py.worker.js, returning real Response
-// objects -- so App.jsx and the components didn't need to change at all.
+// Routes the app's API calls (/detect, /process, ...) to
+// the in-browser report engine in engine.worker.js, returning real Response
+// objects -- so App.jsx and the components stay plain fetch() callers.
 const ROUTES = [
   /^\/detect$/,
   /^\/process$/,
@@ -9,7 +9,7 @@ const ROUTES = [
   /^\/api\/(monthly-average|verification-report|schema-baseline\/reset)$/,
 ]
 
-const worker = new Worker(new URL('./py.worker.js', import.meta.url), { type: 'module' })
+const worker = new Worker(new URL('./engine.worker.js', import.meta.url), { type: 'module' })
 const pending = new Map()
 let nextId = 0
 worker.onmessage = ({ data }) => {

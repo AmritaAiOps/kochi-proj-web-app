@@ -1,4 +1,4 @@
-import './pyApi.js' // must run before the app makes any API call
+import './api.js' // must run before the app makes any API call
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
