@@ -9,12 +9,14 @@ export async function onRequest({ request, env, params }) {
   if (!NAMES.has(name)) return new Response('Not found', { status: 404 })
 
   if (request.method === 'GET') {
+    if (!env.STATE) return new Response('Not found', { status: 404 })
     const value = await env.STATE.get(name)
     if (value === null) return new Response('Not found', { status: 404 })
     return new Response(value, { headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } })
   }
 
   if (request.method === 'PUT') {
+    if (!env.STATE) return new Response('Not found', { status: 404 })
     const text = await request.text()
     if (new TextEncoder().encode(text).length > MAX_BYTES) return new Response('Too large', { status: 413 })
     try {
