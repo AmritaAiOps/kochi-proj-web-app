@@ -204,7 +204,7 @@ function App() {
       document.body.appendChild(link)
       link.click()
       link.remove()
-      URL.revokeObjectURL(url)
+      setTimeout(() => URL.revokeObjectURL(url), 10000) // revoking synchronously can cancel the download in some browsers
 
       setDownloadStatus('success')
     } catch {
