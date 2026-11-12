@@ -163,10 +163,10 @@ function App() {
       clearInterval(progressTimer.current)
       setProgress(100)
 
-      if (data.status === 'error') {
+      if (!res.ok || data.status === 'error') {
         setErrorInfo({
           failed_file: data.failed_file,
-          reason: data.reason,
+          reason: data.reason || data.detail || `Processing failed (HTTP ${res.status}).`,
           code: data.error?.code,
           category: data.error?.category,
         })
@@ -222,8 +222,8 @@ function App() {
         body: JSON.stringify({ file_id: result.file_id, resolutions }),
       })
       const data = await res.json()
-      if (data.status === 'error') {
-        setErrorInfo({ failed_file: data.failed_file, reason: data.reason })
+      if (!res.ok || data.status === 'error') {
+        setErrorInfo({ failed_file: data.failed_file, reason: data.reason || data.detail || `Override failed (HTTP ${res.status}).` })
         setPhase('error')
         return
       }

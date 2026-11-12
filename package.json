@@ -5,7 +5,7 @@
   "scripts": {
     "setup": "npm install && npm install --prefix frontend",
     "build": "npm ci --prefix frontend && npm run build --prefix frontend",
-    "dev": "npm run build && wrangler pages dev",
+    "dev": "npm run build && wrangler pages dev --kv STATE",
     "deploy": "npm run build && wrangler pages deploy",
     "test": "npm test --prefix frontend"
   },
